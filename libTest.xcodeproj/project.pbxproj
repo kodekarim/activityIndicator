@@ -14,6 +14,7 @@
 		90BE953E1C2D682F001D117C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90BE953C1C2D682F001D117C /* LaunchScreen.storyboard */; };
 		90BE95491C2D6830001D117C /* libTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BE95481C2D6830001D117C /* libTestTests.swift */; };
 		90BE95541C2D6830001D117C /* libTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BE95531C2D6830001D117C /* libTestUITests.swift */; };
+		90BE95641C2D68AB001D117C /* activityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BE95631C2D68AB001D117C /* activityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		90BE954F1C2D6830001D117C /* libTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BE95531C2D6830001D117C /* libTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = libTestUITests.swift; sourceTree = "<group>"; };
 		90BE95551C2D6830001D117C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90BE95631C2D68AB001D117C /* activityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		90BE95321C2D682F001D117C /* libTest */ = {
 			isa = PBXGroup;
 			children = (
+				90BE95631C2D68AB001D117C /* activityIndicator.swift */,
 				90BE95331C2D682F001D117C /* AppDelegate.swift */,
 				90BE95351C2D682F001D117C /* ViewController.swift */,
 				90BE95371C2D682F001D117C /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				90BE95361C2D682F001D117C /* ViewController.swift in Sources */,
 				90BE95341C2D682F001D117C /* AppDelegate.swift in Sources */,
+				90BE95641C2D68AB001D117C /* activityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -389,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
