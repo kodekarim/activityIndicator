@@ -43,6 +43,7 @@ class ViewController: UIViewController {
 
     @IBAction func unsucessAct(sender: AnyObject) {
          activityView.startLoading()
+        activityView.strokeColor = UIColor.redColor()
         activityView.completeLoading(false)
     }
     @IBAction func changeColorAct(sender: AnyObject) {
