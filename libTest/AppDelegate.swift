@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  libTest
 //
-//  Created by Rohan Pawar on 25/12/15.
+//  Created by abdul karim on 25/12/15.
 //  Copyright © 2015 dhlabs. All rights reserved.
 //
 

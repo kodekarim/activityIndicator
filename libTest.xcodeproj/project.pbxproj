@@ -99,7 +99,7 @@
 		90BE95321C2D682F001D117C /* libTest */ = {
 			isa = PBXGroup;
 			children = (
-				90BE95631C2D68AB001D117C /* activityIndicator.swift */,
+				90E415CE1C2E50DA00365807 /* Class */,
 				90BE95331C2D682F001D117C /* AppDelegate.swift */,
 				90BE95351C2D682F001D117C /* ViewController.swift */,
 				90BE95371C2D682F001D117C /* Main.storyboard */,
@@ -126,6 +126,14 @@
 				90BE95551C2D6830001D117C /* Info.plist */,
 			);
 			path = libTestUITests;
+			sourceTree = "<group>";
+		};
+		90E415CE1C2E50DA00365807 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				90BE95631C2D68AB001D117C /* activityIndicator.swift */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -489,6 +497,7 @@
 				90BE955A1C2D6830001D117C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90BE955B1C2D6830001D117C /* Build configuration list for PBXNativeTarget "libTestTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +506,7 @@
 				90BE955D1C2D6830001D117C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90BE955E1C2D6830001D117C /* Build configuration list for PBXNativeTarget "libTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +515,7 @@
 				90BE95601C2D6830001D117C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
