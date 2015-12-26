@@ -1,3 +1,6 @@
+
+<img src="https://cloud.githubusercontent.com/assets/13949425/12005295/eaa63a1a-abc3-11e5-85c0-9b68de40c0fc.png" width="18%"></img> 
+
 A simple & stylish background activity Indicator which is easily integrated with just some line of code... 
 
 how to implement ... 
