@@ -1,6 +1,13 @@
 
 <img src="https://cloud.githubusercontent.com/assets/13949425/12005344/573fab50-abc6-11e5-8cf9-e46e5cb35aaa.png" width="45%"></img> 
 
+
+Requirements
+
+iOS 8.0+ / 
+
+Xcode 7.2+
+
 A simple & stylish background activity Indicator which is easily integrated with just some line of code... 
 
 how to implement ... 
