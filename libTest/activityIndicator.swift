@@ -258,7 +258,7 @@ open class activityIndicator: UIView, CAAnimationDelegate {
         shapeLayer.add(groupAnimation, forKey: nil)
     }
     
-    public func animationDidStop(anim: CAAnimation, finished flag: Bool) {
+    public func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
         if hidesWhenCompleted {
             Timer.scheduledTimer(timeInterval: dhHidesWhenCompletedDelay, target: self, selector: #selector(activityIndicator.hiddenLoadingView), userInfo: nil, repeats: false)
         } else {
